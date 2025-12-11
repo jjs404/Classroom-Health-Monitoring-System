@@ -22,6 +22,7 @@ img {
     top: -2px;
 }
 
+
 .box {
     width: 420px;
     background: rgb(255, 255, 255);
@@ -29,12 +30,28 @@ img {
     margin: 25px auto;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: absolute;
+    left: 40px;
 }
 
 .box h3 {
     text-align: justify;
     margin-bottom: 15px;
     color: #313030;
+}
+
+.box-main {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    width: 60%;
+
+}
+
+h1 {
+    text-align: justify;
+    margin-left: 110px;
+
 }
 
 h3 {
